@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fill the form below to register</h1>
+    <form action="process.php">
+        <div>
+            <label for="First Name">First Name</label>
+            <input type="text" name="First Name">
+            </div>
+        <br>
+        <div>
+            <label for="Last Name">Last Name</label>
+            <input type="text" name="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email">
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender</label>
+            <select name="Gender" id="">
+                <option value="Male">male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="phone">Phone:</label>
+           <input type="tel" name="phone">
+        </div>
+        <br>
+        <div>
+            <label for="Age">Age</label>
+            <input type="number" name="Age" value="00">
+        </div>
+        <br>
+        <div>
+            <label for="color">Favourite Color: </label>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+            <label for="Date">Birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" id="submit">
+    </form>
+    Already registered? Login <a href="Login.html">here</a>
+</body>
+</html>
